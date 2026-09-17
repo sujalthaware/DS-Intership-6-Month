@@ -1,7 +1,7 @@
 
 # Data Science Internship - Month 1
 
-## Weeks 1 to 3: Python, Data Structures, NumPy & Pandas
+## Weeks 1 to 4: Python, Data Structures, NumPy & Pandas , Matplotlib and Seaborn
 
 **Author:** Sujal
 
