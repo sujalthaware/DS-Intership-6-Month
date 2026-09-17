@@ -276,12 +276,146 @@ I learned how to:
 
 These concepts provide the foundation for the upcoming Data Science topics such as **Data Visualization, Exploratory Data Analysis (EDA), Machine Learning, and Model Building**.
 
+# Data Science Internship - Month 1
+
+## Week 4: Data Visualization with Matplotlib and Seaborn
+
+**Client Project:** Real-Time Weather Data Visualization Dashboard
+
+**Author:** Sujal
+
 ---
 
-# ✅ Conclusion
+## 📌 Project Overview
 
-Weeks 1 to 3 provided a strong foundation in Python and data manipulation.
+The objective of this project is to collect, process, analyze, and visualize
+real-time weather data using Python.
 
-The projects completed during these weeks demonstrated how raw data can be processed, cleaned, transformed, and summarized using Python, NumPy, and Pandas.
+Instead of using a static dataset, this project collects current weather
+information from an external weather API for multiple cities.
 
-This knowledge will be used in the upcoming stages of the Data Science Internship to perform more advanced data analysis and machine learning tasks.
+The collected data is processed using Pandas and visualized using Matplotlib
+and Seaborn.
+
+The project demonstrates a basic real-world Data Science workflow:
+
+    API Data
+       ↓
+    Data Collection
+       ↓
+    Pandas DataFrame
+       ↓
+    Data Cleaning
+       ↓
+    Data Analysis
+       ↓
+    Data Visualization
+       ↓
+    CSV Export
+
+---
+
+# 🎯 Objectives
+
+The main objectives of this project are:
+
+- Collect real-time weather data using an API.
+- Work with external real-world data.
+- Create a Pandas DataFrame from API data.
+- Check and handle missing values.
+- Remove duplicate records.
+- Calculate weather statistics.
+- Compare weather conditions between cities.
+- Create visualizations using Matplotlib.
+- Create advanced visualizations using Seaborn.
+- Analyze relationships between weather features.
+- Save processed data into a CSV file.
+
+---
+
+# 📚 Theory
+
+During Week 4, the following concepts were studied:
+
+## Matplotlib
+
+Matplotlib is a Python library used for creating data visualizations.
+
+Important concepts learned:
+
+- Figure
+- Axes
+- Line plots
+- Bar charts
+- Scatter plots
+- Titles
+- X-axis and Y-axis labels
+- Legends
+- Figure size
+- Saving plots
+
+## Seaborn
+
+Seaborn is a Python visualization library built on top of Matplotlib.
+
+It is useful for statistical and advanced visualizations.
+
+Concepts learned:
+
+- Bar plots
+- Scatter plots
+- Histograms
+- Boxplots
+- Heatmaps
+- Correlation analysis
+- Pairplots
+
+---
+
+# 🌐 Real-Time Data Source
+
+This project uses a weather API to collect current weather information.
+
+The API provides information such as:
+
+- City
+- Temperature
+- Feels-like temperature
+- Humidity
+- Atmospheric pressure
+- Wind speed
+- Weather condition
+- Data collection time
+
+The data is retrieved dynamically whenever the Python program is executed.
+
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Requests
+- Pandas
+- Matplotlib
+- Seaborn
+- OpenWeather API
+- VS Code
+- PowerShell
+
+---
+
+# 📂 Project Structure
+
+```text
+week_4_month_1/
+│
+├── Week4_Live_Weather_Visualization.py
+│
+├── live_weather_data.csv
+│
+├── live_temperature_by_city.png
+├── live_humidity_by_city.png
+├── live_temperature_vs_humidity.png
+├── live_weather_correlation_heatmap.png
+│
+└── README.md
