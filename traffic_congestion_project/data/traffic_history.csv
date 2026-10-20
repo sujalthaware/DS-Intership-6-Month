@@ -1,0 +1,2 @@
+timestamp_utc,location_id,location_name,latitude,longitude,current_speed_kmph,free_flow_speed_kmph,current_travel_time_sec,free_flow_travel_time_sec,confidence,road_closure,speed_ratio,congestion_index,congestion_class,functional_road_class
+2026-10-20 09:35:34+00:00,nagpur_central_sample,Nagpur central sample point,21.1458,79.0882,37.0,45.0,945.0,777.0,0.966766,False,0.8222222222222222,17.777777777777782,Low,FRC1
